@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* global css */
+.subheading::before , .subheading::after{
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: grey;
+    margin: 0px 15px;
+    transform: translateY(-4px);
+}
+
+.subheading2::after{
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: grey;
+    margin: 0px 15px;
+    transform: translateY(-4px);
+}
+
+.subheading , .subheading2{
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 600;
+    color: grey;
+    padding: 30px 0px 45px 0px;
+    text-transform: uppercase;
+}
+
+.subheading2{
+    text-align: start;
+    padding: 10px 0px;
+}
+
+.btn1 {
+    padding: 0.8rem 2rem;
+    border-radius: 40px;
+    border: none;
+    color: White;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #A1CDE9;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: #5D8ADD;
+}
+
+.btn2 {
+    padding: 0.8rem 2rem;
+    border-radius: 40px;
+    border: none;
+    color: #5B84DB;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #fff;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.btn2:hover {
+    color: white;
+    background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 60%), rgba(106, 198, 240, 100%));
+}
+
+.btn3{
+    background: -webkit-linear-gradient(45deg, rgba(81,84,203,100%), rgba(106, 198, 240,100%));
+    padding: 0.8rem 2rem;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #fff;
+    letter-spacing: 2px;
+    font-size: 1rem;
+
+}
+
+.btn3:hover{
+   transform: translateY(-10px);
+   transition: 0.3s ease;
+   box-shadow: 0px 10px 40px -20px #000;
+}
+
+h1 {
+    font-family: inherit;
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.pone{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #8790af;
+}
+
+
+/* sticky */
+.sticky{
+    
+}
+
+.remove-sticky{
+
+}
+/* global css */
+
+/* media for global */
+
+@media only screen and (max-width:999px) {
+    .subheading2{
+        text-align: start !important;
+        padding: 0 !important;
+    }
+}

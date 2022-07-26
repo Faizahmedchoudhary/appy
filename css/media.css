@@ -1,0 +1,126 @@
+@media only screen and (max-width:999px){
+    .right-header{
+        display: none;
+    }
+    
+    .nav-links{
+        display: block;
+        background: -webkit-linear-gradient(45deg,rgba(72,44,191,60%) ,rgba(106,198,240,100%));
+        max-height: 100%;
+        width: 100% ;
+        position: absolute;
+        top: 15%;
+        left: 0;
+        right: 0;
+        padding: 2rem ;
+        text-align: center;
+        z-index: 100;
+    }
+
+    .nav-links li {
+        margin-top: 2rem !important;
+    }
+    
+    .nav-links li:hover   {
+        padding: 1rem 0rem !important;
+        transition: 0.5s ease-in;
+        background-color: white;
+        cursor: pointer;
+    }
+    .nav-links li:hover > a {    
+        color: #A1CDE9;
+        padding-bottom: 0 !important;
+    }
+
+    /* hamburger  */
+    .hamburger{
+        display: block;
+    }
+
+    .nav-links{
+        transform: translateY(-150%);
+        transition: 1s ease;
+    }
+    
+    .open-navlinks{
+        transform: translateY(0%);
+        transition: 1s ease;
+    }
+    /* hamburger  */
+
+
+    /* hero-sections starts */
+    .hero-section{
+        display: block !important;
+        padding: 20% 10%;  
+        margin-top: -20% !important;     
+    }
+
+    #heroleftimg{
+        display: none ;
+    }
+
+    .hero-section2 h1{
+        font-size: 40px;
+    }
+
+    /* hero-sections ends */
+
+    /* about starts */
+
+    /* about ends */
+
+    /* progress starts */
+    #progress{
+        background: none;
+    }
+    .progress1{
+        max-width: 100%;
+        position: absolute;
+        right: 0;
+        text-align: start !important;
+        height: 70vh;
+
+    }
+    .progress2{
+        display: none;
+    }
+    /* progress ends */
+
+    /* video features starts */
+    #video-features{
+       display: block;
+    }
+
+    .video-feature-video{
+        height: 70vh;
+        width: 85vw;
+
+    }
+    /* video features ends */
+
+
+    /* features starts */
+    #features{
+        display: block !important ;
+        position: relative;
+        left: -50px !important;
+        padding-bottom: 10%;
+    }
+
+    #features-section{
+        margin-top: 50%;
+    }
+
+    .features2{
+        display: none;
+    }
+
+    .feature-box-icon i{
+        font-size: 20px;
+    }
+    .feature-box:hover .feature-box-icon i{ 
+        font-size: 20px !important; 
+    }
+    /* features ends */
+}
